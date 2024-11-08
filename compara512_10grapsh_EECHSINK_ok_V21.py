@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# coding: utf-8
+"""
+Projeto: Simulação de uma Rede de Sensores Inteligentes em clusters, baseada no método K-Means e na Lei de Friis, com controle de eficiência energética.
+Programa: compara512_10grapsh_EECHSINK_ok_V21.py
+Calcula a eficiência energética e visualiza a distribuição dos clusters
+Gera diversos gráficos de eficiência energética, compara potências de sensores, de Clusters Heads e da Rede de Sensores Sem Fio (RSSF).
+@author: Maurício Brigato
+Mestrado em Engenharia Elétrica FESJ ICTS
+Unesp Universidade Estadual Paulista "Júlio de Mesquita Filho"
+https://www2.unesp.br/
+https://www.sorocaba.unesp.br/#!/pos-graduacao/--engenharia-eletrica-local/
+date: 25/10/2024
+"""
 import random
 import math
 import numpy as np
